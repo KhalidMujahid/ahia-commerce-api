@@ -1,0 +1,51 @@
+
+export enum ProductStatus {
+  DRAFT = 'DRAFT',
+  ACTIVE = 'ACTIVE',
+  INACTIVE = 'INACTIVE',
+  DELETED = 'DELETED',
+}
+
+export enum ProductType {
+  PHYSICAL = 'PHYSICAL',
+  DIGITAL = 'DIGITAL',
+  SERVICE = 'SERVICE',
+}
+
+export enum VendorStatus {
+  PENDING = 'PENDING',
+  VERIFIED = 'VERIFIED',
+  SUSPENDED = 'SUSPENDED',
+  REJECTED = 'REJECTED',
+}
+
+export enum KYCStatus {
+  PENDING = 'PENDING',
+  VERIFIED = 'VERIFIED',
+  REJECTED = 'REJECTED',
+}
+
+export enum PaymentStatus {
+  PENDING = 'PENDING',
+  PROCESSING = 'PROCESSING',
+  COMPLETED = 'COMPLETED',
+  FAILED = 'FAILED',
+  REFUNDED = 'REFUNDED',
+  PARTIALLY_REFUNDED = 'PARTIALLY_REFUNDED',
+}
+
+export enum PaymentMethod {
+  CARD = 'CARD',
+  WALLET = 'WALLET',
+  PAYSTACK = 'PAYSTACK',
+  STRIPE = 'STRIPE',
+  PAYPAL = 'PAYPAL',
+  BANK_TRANSFER = 'BANK_TRANSFER',
+}
+
+export enum ReviewStatus {
+  PENDING = 'PENDING',
+  APPROVED = 'APPROVED',
+  REJECTED = 'REJECTED',
+  SPAM = 'SPAM',
+}
