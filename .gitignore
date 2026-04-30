@@ -4,6 +4,8 @@
 /build
 
 init.sql
+docker-compose.yml
+Docker
 
 # Logs
 logs
